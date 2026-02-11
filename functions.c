@@ -24,12 +24,12 @@ int validate_cla(int argc, char *argv[], struct MP3 *mp3)												// Function
 		printf("------------------------------->HELP<-----------------------------------------\n");
 		printf("1. -v -> to view mp3 file contents\n");
 		printf("2. -e -> to edit mp3 file contents\n");
-		printf("\t\t2.1. -t -> to edit song title\n");
-		printf("\t\t2.2. -a -> to edit artist name\n");
-		printf("\t\t2.3. -A -> to edit album name\n");
-		printf("\t\t2.4. -y -> to edit year\n");
-		printf("\t\t2.5. -m -> to edit content\n");
-		printf("\t\t2.6. -c -> to edit comment\n");
+		printf("\t2.1. -t -> to edit song title\n");
+		printf("\t2.2. -a -> to edit artist name\n");
+		printf("\t2.3. -A -> to edit album name\n");
+		printf("\t2.4. -y -> to edit year\n");
+		printf("\t2.5. -m -> to edit content\n");
+		printf("\t2.6. -c -> to edit comment\n");
 		printf("------------------------------------------------------------------------------\n");
 		return 0; 
     }
