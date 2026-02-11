@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
     struct MP3 mp3;
     // Validate command line arguments and get operation type
     int ret = validate_cla(argc,argv,&mp3);
+    if(!ret)
+      return 0;
     printf("It is mp3 file\n");
     printf("-------------------------------------------------------------------------------------------------\n");
     printf("MP3 TAG READER AND EDITOR FOR ID3v2\n");
