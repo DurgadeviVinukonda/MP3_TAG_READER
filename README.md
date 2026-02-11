@@ -1,27 +1,41 @@
-MP3 Metadata Reader & Editor (C)
+MP3 Tag Reader and Editor (C Language)
+📌 Project Description
 
-This project is a C-based command-line tool that reads and edits ID3v2 tags in MP3 files. It helps users view and update metadata such as song title, artist, album, year, and genre while keeping the audio data unchanged.
+This is a command-line based MP3 Tag Reader and Editor developed using the C programming language.
+The application allows users to read, display, and edit ID3v2 metadata from MP3 files.
+It works directly on the MP3 file without affecting the actual audio data.
 
-Overview
+✨ Features
 
-MP3 files store metadata using the ID3v2 standard. This application parses the MP3 file at a low level, extracts tag information, and allows selective modification of metadata fields.
+Read ID3v2 tags from MP3 files
 
-Key Features
+Display song details such as title, artist, album, year, and genre
 
-->View MP3 metadata (ID3v2)
+Edit selected MP3 metadata fields
 
-->Edit individual tag fields
+Preserves original audio content
 
-->Supports common tags like Title, Artist, Album, Year, and Genre
+Menu-driven command-line interface
 
-->Efficient binary file handling
+🛠️ Technologies Used
 
-->Simple command-line usage
+Programming Language: C
 
-Requirements
+File Handling: Binary Files
 
-GCC compiler
+Standard: ID3v2
 
-Linux/Unix environment
+Compiler: GCC
 
-MP3 file with ID3v2 tags
+Platform: Linux / Ubuntu
+
+📂 Project Structure
+
+MP3_Tag_Reader/
+│
+├── main.c # Program entry point
+├── view.c # Displays MP3 tag information
+├── edit.c # Edits MP3 metadata
+├── common.c # Common utility functions
+├── mp3.h # Header file
+└── README.md # Project documentation
