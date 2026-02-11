@@ -8,15 +8,15 @@ MP3 files store metadata using the ID3v2 standard. This application parses the M
 
 Key Features
 
-View MP3 metadata (ID3v2)
+->View MP3 metadata (ID3v2)
 
-Edit individual tag fields
+->Edit individual tag fields
 
-Supports common tags like Title, Artist, Album, Year, and Genre
+->Supports common tags like Title, Artist, Album, Year, and Genre
 
-Efficient binary file handling
+->Efficient binary file handling
 
-Simple command-line usage
+->Simple command-line usage
 
 Requirements
 
