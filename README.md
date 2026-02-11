@@ -27,9 +27,9 @@ It works directly on the MP3 file without affecting the actual audio data.
 
 ## 📂 Project Structure
 MP3_Tag_Reader/
-├── main.c # Program entry point
-├── view.c # Displays MP3 tag information
-├── edit.c # Edits MP3 metadata
-├── common.c # Common utility functions
-├── mp3.h # Header file
-└── README.md # Project documentation
+  ├── main.c # Program entry point
+  ├── view.c # Displays MP3 tag information
+  ├── edit.c # Edits MP3 metadata
+  ├── common.c # Common utility functions
+  ├── mp3.h # Header file
+  └── README.md # Project documentation
